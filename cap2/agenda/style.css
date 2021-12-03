@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #99ff99;
+}
+
+.title{
+    text-align: center;
+}
+
+.errorMsgStyle{
+    text-align: center;
+    margin: 20vh 31.5vw;
+    position: absolute;
+    color: red;
+}
+
+input{
+    padding: 2vh 1vw;
+    margin:2.5vh;
+    display: flex;
+    transition: .2s ease;
+    border: none;
+    border-radius: 8px;
+
+}
+
+input:focus{
+    border-radius: 24px;
+}
+
+
+input[type="submit"]{
+    background-color: #8080FF;
+}
+
+input[type="submit"]:focus{
+    border-radius: 8px;
+}
+
+.formStyle{
+    flex-wrap: wrap;
+    width: 25vw;
+    display: flex;
+    justify-content:center;
+    margin:20vh 25vw;
+}
+
+.agendaStyle{
+    background-color: #e9c46a;
+    border: 4px #8080FF dashed;
+    width: 25vw;
+    text-align: center;
+    height: 50vh;
+    margin:-60vh 55vw;
+    border-radius: 8px;
+
+}
+
